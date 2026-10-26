@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM SHRI BINDHAKATA HS | Boragadhoi, Dibrugarh, Assam</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0F2C59',
+                            gold: '#E5A93B',
+                            goldHover: '#D4962A',
+                            green: '#1E6B44',
+                            lightBg: '#F8FAFC',
+                            cardBg: '#FFFFFF',
+                            textDark: '#1E293B',
+                            textMuted: '#64748B'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Scrolling Marquee Animation */
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .animate-marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 28s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+
+        /* Glassmorphic elements */
+        .glass-nav {
+            background: rgba(15, 44, 89, 0.95);
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="bg-brand-lightBg text-brand-textDark font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- TOP ANNOUNCEMENT BAR & QUICK CONTACT -->
+    <div class="bg-brand-navy text-gray-200 text-xs sm:text-sm py-2 px-4 border-b border-blue-900/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+                <span><i class="fa-solid fa-location-dot text-brand-gold mr-1"></i> Boragadhoi, Muluk Gaon, Dibrugarh, Assam</span>
+                <span class="hidden md:inline">|</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-phone text-brand-gold mr-1"></i> +91 94350 XXXXX</span>
+                <span class="hidden lg:inline">|</span>
+                <span class="hidden lg:inline"><i class="fa-solid fa-envelope text-brand-gold mr-1"></i> pmshri.bindhakata@gmail.com</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="bg-brand-gold text-brand-navy font-bold px-2 py-0.5 rounded text-[11px] uppercase tracking-wider">PM SHRI School</span>
+                <a href="#contact" class="hover:text-brand-gold transition-colors"><i class="fa-solid fa-paper-plane mr-1"></i> Enquire</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER / LOGO AREA -->
+    <header class="bg-white shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3 md:gap-4">
+                <!-- Emblem Placeholder -->
+                <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-brand-navy text-brand-gold flex items-center justify-center font-bold text-xl md:text-2xl shadow-md border-2 border-brand-gold flex-shrink-0">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <h1 class="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-brand-navy">
+                            PM SHRI BINDHAKATA HS
+                        </h1>
+                    </div>
+                    <p class="text-xs sm:text-sm font-medium text-brand-green flex items-center gap-1">
+                        <i class="fa-solid fa-leaf text-xs"></i> Empowering Rural Youth Through Holistic & Green Education
+                    </p>
+                    <p class="text-[11px] text-gray-500 hidden sm:block">SEBA & AHSEC Recognized | Dibrugarh District, Assam</p>
+                </div>
+            </div>
+
+            <!-- Quick Action Button -->
+            <div class="hidden lg:flex items-center gap-3">
+                <a href="#notices" class="bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-semibold hover:bg-blue-900 transition flex items-center gap-2 shadow-sm">
+                    <i class="fa-solid fa-bell text-brand-gold animate-bounce"></i> Circulars
+                </a>
+                <a href="#about" class="bg-brand-green text-white px-4 py-2.5 rounded-lg text-sm font-semibold hover:bg-emerald-800 transition flex items-center gap-2 shadow-sm">
+                    <i class="fa-solid fa-seedling"></i> Eco Campus
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- STICKY NAVIGATION BAR -->
+    <nav class="sticky top-0 z-40 glass-nav text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-14">
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex items-center space-x-1 lg:space-x-4 text-sm font-medium">
+                    <a href="#home" class="px-3 py-2 rounded-md bg-white/10 text-brand-gold font-semibold transition">Home</a>
+                    <a href="#about" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">About Us</a>
+                    <a href="#academics" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">Academics</a>
+                    <a href="#facilities" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">Facilities & TLM</a>
+                    <a href="#gallery" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">Events & Gallery</a>
+                    <a href="#principal" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">Leadership</a>
+                    <a href="#contact" class="px-3 py-2 rounded-md hover:bg-white/10 hover:text-brand-gold transition">Contact Us</a>
+                </div>
+
+                <!-- Search / Quick Contact trigger on mobile -->
+                <div class="flex md:hidden items-center justify-between w-full">
+                    <span class="font-bold text-brand-gold text-sm tracking-wide">PM SHRI BINDHAKATA HS</span>
+                    <button id="mobile-menu-btn" class="p-2 rounded-md text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none" aria-label="Toggle menu">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-navy border-t border-blue-800 px-4 pt-2 pb-4 space-y-2">
+            <a href="#home" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800 text-brand-gold">Home</a>
+            <a href="#about" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">About Us</a>
+            <a href="#academics" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">Academics</a>
+            <a href="#facilities" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">Facilities & TLM</a>
+            <a href="#gallery" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">Events & Gallery</a>
+            <a href="#principal" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">Leadership</a>
+            <a href="#contact" class="mobile-link block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-800">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- URGENT ANNOUNCEMENT TICKER -->
+    <div class="bg-brand-gold text-brand-navy font-semibold py-2 px-4 shadow-inner flex items-center overflow-hidden">
+        <div class="flex items-center gap-2 bg-brand-navy text-white px-3 py-1 rounded text-xs uppercase tracking-wider z-10 font-bold flex-shrink-0">
+            <i class="fa-solid fa-bullhorn text-brand-gold"></i> Latest News
+        </div>
+        <div class="overflow-hidden w-full relative ml-3">
+            <div class="animate-marquee text-xs sm:text-sm gap-8 flex items-center">
+                <span>🎓 Admissions open for Academic Session 2026-27! Visit the school office for application forms.</span>
+                <span>🏆 PM Shri Bindhakata HS shines in District Level Khel Maharan Sports Meet!</span>
+                <span>🌿 Eco Club Vermicompost & Rainwater Harvesting Workshop scheduled for next Friday.</span>
+                <span>💻 Registration active for Computer Literacy & Vocational Training Classes for Class IX & X.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="flex-grow">
+
+        <!-- HERO CAROUSEL SECTION -->
+        <section id="home" class="relative bg-gray-900 text-white overflow-hidden">
+            <div id="hero-carousel" class="relative h-[380px] sm:h-[480px] md:h-[550px]">
+                <!-- Slide 1 -->
+                <div class="carousel-slide absolute inset-0 opacity-100 transition-opacity duration-1000 bg-cover bg-center flex items-center" 
+                     style="background-image: linear-gradient(rgba(15, 44, 89, 0.75), rgba(15, 44, 89, 0.75)), url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center sm:text-left">
+                        <span class="bg-brand-gold/90 text-brand-navy font-extrabold text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Welcome to PM SHRI School</span>
+                        <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">Nurturing Minds, Building Character in Assam</h2>
+                        <p class="text-sm sm:text-base md:text-lg text-gray-200 max-w-2xl mb-6">Empowering students of Boragadhoi Village and Muluk Gaon with modern science, vocational skills, and sustainable eco-values.</p>
+                        <div class="flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="#about" class="bg-brand-gold hover:bg-brand-goldHover text-brand-navy px-6 py-3 rounded-lg font-bold shadow-lg transition">Explore School</a>
+                            <a href="#contact" class="bg-white/20 hover:bg-white/30 text-white backdrop-blur border border-white/40 px-6 py-3 rounded-lg font-bold transition">Admissions Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-slide absolute inset-0 opacity-0 transition-opacity duration-1000 bg-cover bg-center flex items-center" 
+                     style="background-image: linear-gradient(rgba(30, 107, 68, 0.8), rgba(15, 44, 89, 0.8)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center sm:text-left">
+                        <span class="bg-emerald-400 text-brand-navy font-extrabold text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Eco-Friendly Campus</span>
+                        <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">Green Campus Initiatives & Sustainability</h2>
+                        <p class="text-sm sm:text-base md:text-lg text-gray-200 max-w-2xl mb-6">Leading Dibrugarh district with active vermicomposting, rainwater harvesting, and organic herbal gardens managed by students.</p>
+                        <div class="flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="#facilities" class="bg-brand-green hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-bold shadow-lg transition">Our Green Projects</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-slide absolute inset-0 opacity-0 transition-opacity duration-1000 bg-cover bg-center flex items-center" 
+                     style="background-image: linear-gradient(rgba(15, 44, 89, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center sm:text-left">
+                        <span class="bg-blue-400 text-brand-navy font-extrabold text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-3 inline-block">Smart & Digital Learning</span>
+                        <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">State-of-the-Art TLM & Computer Corner</h2>
+                        <p class="text-sm sm:text-base md:text-lg text-gray-200 max-w-2xl mb-6">Fostering critical thinking through modern Teaching Learning Materials (TLM), digital smart boards, and chess coaching.</p>
+                        <div class="flex flex-wrap gap-3 justify-center sm:justify-start">
+                            <a href="#academics" class="bg-brand-gold text-brand-navy px-6 py-3 rounded-lg font-bold shadow-lg transition">Academic Programs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full transition" aria-label="Previous slide">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full transition" aria-label="Next slide">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+            <!-- Slide Indicators -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+                <button class="slide-indicator w-3 h-3 rounded-full bg-white opacity-100 transition" onclick="goToSlide(0)"></button>
+                <button class="slide-indicator w-3 h-3 rounded-full bg-white opacity-40 transition" onclick="goToSlide(1)"></button>
+                <button class="slide-indicator w-3 h-3 rounded-full bg-white opacity-40 transition" onclick="goToSlide(2)"></button>
+            </div>
+        </section>
+
+        <!-- STATS COUNTER BAR -->
+        <section class="bg-brand-navy text-white py-8 border-b-4 border-brand-gold">
+            <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i class="fa-solid fa-user-graduate text-3xl text-brand-gold mb-2"></i>
+                    <h3 class="text-2xl sm:text-3xl font-bold">500+</h3>
+                    <p class="text-xs sm:text-sm text-gray-300">Enrolled Students</p>
+                </div>
+                <div class="p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i class="fa-solid fa-chalkboard-user text-3xl text-brand-gold mb-2"></i>
+                    <h3 class="text-2xl sm:text-3xl font-bold">20+</h3>
+                    <p class="text-xs sm:text-sm text-gray-300">Dedicated Educators</p>
+                </div>
+                <div class="p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i class="fa-solid fa-seedling text-3xl text-emerald-400 mb-2"></i>
+                    <h3 class="text-2xl sm:text-3xl font-bold">100%</h3>
+                    <p class="text-xs sm:text-sm text-gray-300">Eco-Green School</p>
+                </div>
+                <div class="p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i class="fa-solid fa-trophy text-3xl text-brand-gold mb-2"></i>
+                    <h3 class="text-2xl sm:text-3xl font-bold">PM SHRI</h3>
+                    <p class="text-xs sm:text-sm text-gray-300">Model Flagship School</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SCHOOL & VISION SECTION -->
+        <section id="about" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span class="text-brand-green font-bold text-sm tracking-widest uppercase flex items-center gap-2">
+                            <i class="fa-solid fa-school"></i> About PM SHRI BINDHAKATA HS
+                        </span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy mt-2 mb-6">Fostering Excellence in Boragadhoi, Dibrugarh</h2>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            <strong>PM SHRI BINDHAKATA HS</strong>, located at Boragadhoi Village (Muluk Gaon) in the Dibrugarh district of Assam, stands as a beacon of quality education and eco-consciousness in the region. Selected under the prestigious PM SHRI scheme, our school blends modern academic frameworks with hands-on vocational learning and ecological responsibility.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            We pride ourselves on providing an inclusive environment where students excel not only in academic disciplines but also in co-curricular activities like Chess, Khel Maharan sports, science exhibitions, and community green drives.
+                        </p>
+                        
+                        <!-- Core Pillars Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-full bg-emerald-100 text-brand-green flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-recycle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-brand-navy">Vermicompost Unit</h4>
+                                    <p class="text-xs text-gray-500">In-house organic waste recycling managed by students.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-full bg-blue-100 text-brand-navy flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-cloud-rain"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-brand-navy">Rainwater Harvesting</h4>
+                                    <p class="text-xs text-gray-500">Sustainable water conservation models in operation.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-full bg-amber-100 text-brand-gold flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-brand-navy">Vocational Skills</h4>
+                                    <p class="text-xs text-gray-500">Computer literacy, electronics & practical trades.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-700 flex items-center justify-center flex-shrink-0">
+                                    <i class="fa-solid fa-chess"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-brand-navy">Sports & Chess</h4>
+                                    <p class="text-xs text-gray-500">Structured coaching for analytical & physical growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Side Feature Card / Image Stack -->
+                    <div class="relative">
+                        <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80" alt="School Campus" class="w-full h-80 object-cover">
+                        </div>
+                        <div class="bg-brand-navy text-white p-6 rounded-2xl shadow-xl mt-6 lg:-mt-12 lg:ml-12 relative z-10 border-2 border-brand-gold">
+                            <h3 class="text-lg font-bold text-brand-gold mb-2 flex items-center gap-2">
+                                <i class="fa-solid fa-compass"></i> Our Mission & Vision
+                            </h3>
+                            <p class="text-sm text-gray-200 leading-relaxed">
+                                To empower every student of Dibrugarh with modern knowledge, cultural pride of Assam, scientific temperament, and deep respect for environmental sustainability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE NOTICES & ACADEMIC UPDATES SECTION -->
+        <section id="notices" class="py-16 bg-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="text-brand-navy font-bold text-sm tracking-widest uppercase">Stay Updated</span>
+                    <h2 class="text-3xl font-extrabold text-brand-navy mt-1">Notice Board & Announcements</h2>
+                    <p class="text-gray-600 text-sm mt-2">Access the latest administrative circulars, examination schedules, and event details.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden grid grid-cols-1 lg:grid-cols-3">
+                    <!-- Notice Categories Tabs -->
+                    <div class="p-6 bg-slate-50 border-r border-gray-200">
+                        <h3 class="font-bold text-brand-navy text-lg mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-folder-open text-brand-gold"></i> Categories
+                        </h3>
+                        <div class="flex flex-col space-y-2" id="notice-tabs">
+                            <button onclick="switchNoticeTab('general')" class="notice-tab-btn active text-left px-4 py-3 rounded-lg font-semibold text-sm transition bg-brand-navy text-white shadow">
+                                <i class="fa-solid fa-bullhorn mr-2"></i> General Notices
+                            </button>
+                            <button onclick="switchNoticeTab('exams')" class="notice-tab-btn text-left px-4 py-3 rounded-lg font-semibold text-sm transition text-gray-700 hover:bg-gray-200">
+                                <i class="fa-solid fa-pen-to-square mr-2"></i> Examinations & Results
+                            </button>
+                            <button onclick="switchNoticeTab('eco')" class="notice-tab-btn text-left px-4 py-3 rounded-lg font-semibold text-sm transition text-gray-700 hover:bg-gray-200">
+                                <i class="fa-solid fa-leaf mr-2"></i> Eco-Club & Green Drive
+                            </button>
+                            <button onclick="switchNoticeTab('sports')" class="notice-tab-btn text-left px-4 py-3 rounded-lg font-semibold text-sm transition text-gray-700 hover:bg-gray-200">
+                                <i class="fa-solid fa-trophy mr-2"></i> Sports & Khel Maharan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Notice List Display -->
+                    <div class="col-span-2 p-6">
+                        <!-- General Notices -->
+                        <div id="tab-general" class="notice-content space-y-4">
+                            <div class="p-4 rounded-xl border-l-4 border-brand-navy bg-slate-50 hover:shadow-md transition">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="text-xs font-bold text-brand-navy bg-blue-100 px-2.5 py-0.5 rounded">CIRCULAR</span>
+                                    <span class="text-xs text-gray-500"><i class="fa-regular fa-calendar mr-1"></i> Oct 24, 2026</span>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-base">PM SHRI Academic Advisory Committee Meeting</h4>
+                                <p class="text-xs text-gray-600 mt-1">Parents and guardians are invited for the quarterly PTA interaction regarding student progress and TLM upgrades.</p>
+                            </div>
+                            <div class="p-4 rounded-xl border-l-4 border-brand-gold bg-amber-50/40 hover:shadow-md transition">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="text-xs font-bold text-amber-800 bg-amber-100 px-2.5 py-0.5 rounded">ADMISSION</span>
+                                    <span class="text-xs text-gray-500"><i class="fa-regular fa-calendar mr-1"></i> Oct 18, 2026</span>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-base">Class IX & XI Fresh Admissions Open</h4>
+                                <p class="text-xs text-gray-600 mt-1">Collect admission prospectuses from the school office between 10:00 AM and 2:00 PM on working days.</p>
+                            </div>
+                        </div>
+
+                        <!-- Exams Notices -->
+                        <div id="tab-exams" class="notice-content hidden space-y-4">
+                            <div class="p-4 rounded-xl border-l-4 border-red-500 bg-red-50/40 hover:shadow-md transition">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="text-xs font-bold text-red-800 bg-red-100 px-2.5 py-0.5 rounded">SCHEDULE</span>
+                                    <span class="text-xs text-gray-500"><i class="fa-regular fa-calendar mr-1"></i> Oct 20, 2026</span>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-base">Half-Yearly Examination Date Sheet 2026</h4>
+                                <p class="text-xs text-gray-600 mt-1">Examinations commence from November 10th. Detailed subject-wise schedule available at administrative counter.</p>
+                            </div>
+                        </div>
+
+                        <!-- Eco Club Notices -->
+                        <div id="tab-eco" class="notice-content hidden space-y-4">
+                            <div class="p-4 rounded-xl border-l-4 border-brand-green bg-emerald-50/40 hover:shadow-md transition">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="text-xs font-bold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded">ECO INITIATIVE</span>
+                                    <span class="text-xs text-gray-500"><i class="fa-regular fa-calendar mr-1"></i> Oct 22, 2026</span>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-base">Student Vermicompost Harvest Drive</h4>
+                                <p class="text-xs text-gray-600 mt-1">Eco-Club members will harvest organic compost generated on campus for local community gardens.</p>
+                            </div>
+                        </div>
+
+                        <!-- Sports Notices -->
+                        <div id="tab-sports" class="notice-content hidden space-y-4">
+                            <div class="p-4 rounded-xl border-l-4 border-purple-600 bg-purple-50/40 hover:shadow-md transition">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="text-xs font-bold text-purple-800 bg-purple-100 px-2.5 py-0.5 rounded">SPORTS</span>
+                                    <span class="text-xs text-gray-500"><i class="fa-regular fa-calendar mr-1"></i> Oct 15, 2026</span>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-base">Inter-House Chess Championship & Khel Maharan Trials</h4>
+                                <p class="text-xs text-gray-600 mt-1">Registration open for students of Class VI to X for upcoming block-level tournaments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HIGHLIGHTS & FACILITIES CARDS SECTION -->
+        <section id="facilities" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-brand-green font-bold text-sm tracking-widest uppercase">PM SHRI Facilities</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy mt-1">Empowering Learning Environment</h2>
+                    <p class="text-gray-600 text-sm mt-2">Discover how our modern infrastructure and green initiatives provide holistic growth for students in Boragadhoi.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Facility Card 1: Computer & Vocational -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-blue-100 text-brand-navy rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Computer & Vocational Hub</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Equipped with desktop computers, internet connectivity, and tailored IT curricula to prepare students for the digital era.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Basic Programming & Typing Skills</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Hands-on Vocational Modules</li>
+                        </ul>
+                    </div>
+
+                    <!-- Facility Card 2: Chess & Sports -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-amber-100 text-brand-gold rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-chess-king"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Chess & Sports Coaching</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Regular training sessions in chess for cognitive sharpening, alongside football, volleyball, and athletics under Khel Maharan.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Dedicated Chess Corner</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> District & State Tournament Support</li>
+                        </ul>
+                    </div>
+
+                    <!-- Facility Card 3: Science & TLM Corner -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-purple-100 text-purple-700 rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-flask-vial"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Science & TLM Corner</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Interactive Teaching Learning Materials (TLM), science experiment kits, and hands-on models that turn theory into real understanding.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Practical STEM Kits</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Interactive Wall Charts & Models</li>
+                        </ul>
+                    </div>
+
+                    <!-- Facility Card 4: Eco & Green Campus -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-green rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Eco & Green Campus</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Model environmental setup featuring active vermicompost pits, rainwater collection tanks, and clean plantation drives.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> In-house Organic Vermicomposting</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Rainwater Harvesting Structure</li>
+                        </ul>
+                    </div>
+
+                    <!-- Facility Card 5: Smart Classrooms -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-indigo-100 text-indigo-700 rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-display"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Smart Digital Classrooms</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Audio-visual learning aids and digital projection systems enabling immersive multi-media learning for high school students.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Interactive Multimedia Presentations</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Educational E-Content & Videos</li>
+                        </ul>
+                    </div>
+
+                    <!-- Facility Card 6: Library & Resource Room -->
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <div class="w-14 h-14 bg-rose-100 text-rose-700 rounded-xl flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2">Library & Reading Room</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">A rich repository of textbooks, reference guides, Assamese & English literature, competitive exam journals, and magazines.</p>
+                        <ul class="text-xs text-gray-500 space-y-2 border-t border-gray-200 pt-3">
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> 2000+ Book Titles</li>
+                            <li><i class="fa-solid fa-check text-brand-green mr-1"></i> Quiet Study Environment</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PRINCIPAL'S DESK / LEADERSHIP SECTION -->
+        <section id="principal" class="py-16 bg-brand-navy text-white relative overflow-hidden">
+            <!-- Background SVG Pattern -->
+            <div class="absolute inset-0 opacity-5 pointer-events-none">
+                <i class="fa-solid fa-quote-right text-[300px] absolute right-0 bottom-0 text-white"></i>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 sm:p-12 border border-white/20 shadow-2xl grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                    
+                    <!-- Profile Card -->
+                    <div class="text-center lg:border-r lg:border-white/20 lg:pr-8">
+                        <div class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-brand-gold shadow-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Headmaster / Principal" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-gold">Headmaster / Principal</h3>
+                        <p class="text-xs text-gray-300 font-medium mt-1">PM SHRI BINDHAKATA HS</p>
+                        <p class="text-xs text-emerald-300 mt-2 font-semibold">Boragadhoi, Dibrugarh, Assam</p>
+                    </div>
+
+                    <!-- Message Body -->
+                    <div class="lg:col-span-2 space-y-4">
+                        <div class="flex items-center gap-2 text-brand-gold text-lg">
+                            <i class="fa-solid fa-quote-left text-2xl"></i>
+                            <span class="font-bold tracking-wide uppercase text-xs">Message from Leadership</span>
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">"Educating Hearts and Minds for a Greener Tomorrow"</h2>
+                        <p class="text-gray-200 text-sm sm:text-base leading-relaxed">
+                            Welcome to the official portal of PM SHRI Bindhakata High School. As an institution rooted in the fertile soil of Boragadhoi, Dibrugarh, our goal is to extend state-of-the-art educational facilities to rural students without disconnecting them from their cultural heritage and environment.
+                        </p>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Through our eco-club initiatives like rainwater harvesting and vermicomposting, alongside technological enrichment through our computer laboratory and science TLM kits, we ensure that every child passes out as a responsible, skilled, and enlightened citizen.
+                        </p>
+                        <div class="pt-2">
+                            <button onclick="openPrincipalModal()" class="text-xs font-bold bg-brand-gold text-brand-navy px-4 py-2 rounded-md hover:bg-brand-goldHover transition">Read Full Message</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENT & ACTIVITY GALLERY -->
+        <section id="gallery" class="py-16 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                    <div>
+                        <span class="text-brand-green font-bold text-sm tracking-widest uppercase">Vibrant Campus Life</span>
+                        <h2 class="text-3xl font-extrabold text-brand-navy mt-1">Events & Activity Gallery</h2>
+                    </div>
+                    
+                    <!-- Filter Buttons -->
+                    <div class="flex flex-wrap gap-2 mt-4 md:mt-0" id="gallery-filters">
+                        <button onclick="filterGallery('all')" class="filter-btn active px-4 py-1.5 rounded-full text-xs font-bold bg-brand-navy text-white transition">All</button>
+                        <button onclick="filterGallery('sports')" class="filter-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-700 hover:bg-gray-200 border border-gray-300 transition">Khel Maharan</button>
+                        <button onclick="filterGallery('science')" class="filter-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-700 hover:bg-gray-200 border border-gray-300 transition">Science & TLM</button>
+                        <button onclick="filterGallery('eco')" class="filter-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-700 hover:bg-gray-200 border border-gray-300 transition">Eco Drive</button>
+                        <button onclick="filterGallery('culture')" class="filter-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-700 hover:bg-gray-200 border border-gray-300 transition">Cultural</button>
+                    </div>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="gallery-grid">
+                    
+                    <!-- Item 1: Cultural -->
+                    <div class="gallery-item culture group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80" alt="Cultural Event" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-purple-600 bg-purple-100 px-2 py-0.5 rounded">CULTURAL</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Annual Cultural Festival</h4>
+                            <p class="text-xs text-gray-500">Bihu performance by students</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Sports -->
+                    <div class="gallery-item sports group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&w=600&q=80" alt="Khel Maharan Sports" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded">KHEL MAHARAN</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">District Sports Meet</h4>
+                            <p class="text-xs text-gray-500">Athletics and Football competition</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Science -->
+                    <div class="gallery-item science group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="Science Exhibition" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-blue-700 bg-blue-100 px-2 py-0.5 rounded">SCIENCE EXPO</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">TLM & Model Exhibition</h4>
+                            <p class="text-xs text-gray-500">Working science models display</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: Eco -->
+                    <div class="gallery-item eco group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" alt="Eco Plantation" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">ECO CLUB</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Tree Plantation Drive</h4>
+                            <p class="text-xs text-gray-500">Planting saplings in Boragadhoi</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: Sports -->
+                    <div class="gallery-item sports group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1560174038-da43ac74f01b?auto=format&fit=crop&w=600&q=80" alt="Chess Tournament" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded">CHESS TOURNAMENT</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Inter-Class Chess Challenge</h4>
+                            <p class="text-xs text-gray-500">Brain development activity</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: Eco -->
+                    <div class="gallery-item eco group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?auto=format&fit=crop&w=600&q=80" alt="Rainwater Harvesting" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">VERMICOMPOST</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Organic Fertilizer Unit</h4>
+                            <p class="text-xs text-gray-500">Eco-Club harvesting session</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: Science -->
+                    <div class="gallery-item science group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Computer Training" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-blue-700 bg-blue-100 px-2 py-0.5 rounded">COMPUTER LAB</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Digital Literacy Workshop</h4>
+                            <p class="text-xs text-gray-500">Class X hands-on coding</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 8: Culture -->
+                    <div class="gallery-item culture group relative rounded-xl overflow-hidden shadow-md bg-white border border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?auto=format&fit=crop&w=600&q=80" alt="Independence Day" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-3">
+                            <span class="text-[10px] font-bold text-purple-600 bg-purple-100 px-2 py-0.5 rounded">NATIONAL DAY</span>
+                            <h4 class="font-bold text-sm text-brand-navy mt-1">Independence Day Parade</h4>
+                            <p class="text-xs text-gray-500">School campus celebration</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT US & LOCATION SECTION -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="text-brand-navy font-bold text-sm tracking-widest uppercase">Reach Out to Us</span>
+                    <h2 class="text-3xl font-extrabold text-brand-navy mt-1">Contact & Campus Location</h2>
+                    <p class="text-gray-600 text-sm mt-2">Have questions regarding admissions, circulars, or school activities? Send us a message.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    
+                    <!-- Contact Information & Map Info -->
+                    <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-6 flex items-center gap-2">
+                                <i class="fa-solid fa-location-dot text-brand-gold"></i> School Address Details
+                            </h3>
+                            
+                            <div class="space-y-4 text-sm text-gray-600">
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 bg-blue-100 text-brand-navy rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-building-columns text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="text-gray-800">School Name:</strong>
+                                        <p>PM SHRI BINDHAKATA HIGH SCHOOL</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 bg-emerald-100 text-brand-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-map-pin text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="text-gray-800">Location / Village:</strong>
+                                        <p>Boragadhoi Village, Muluk Gaon</p>
+                                        <p>District: Dibrugarh, Assam - 786001</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 bg-amber-100 text-brand-gold rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-clock text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="text-gray-800">School Hours:</strong>
+                                        <p>Monday - Saturday: 9:00 AM – 3:30 PM</p>
+                                        <p class="text-xs text-gray-500">Closed on Sundays & Official Holidays</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 bg-purple-100 text-purple-700 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-envelope text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="text-gray-800">Official Email:</strong>
+                                        <p>pmshri.bindhakata@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Location Map Placeholder Box -->
+                        <div class="mt-8 bg-slate-200 rounded-xl p-4 text-center border border-slate-300">
+                            <i class="fa-solid fa-map-location-dot text-3xl text-brand-navy mb-2"></i>
+                            <p class="text-xs font-bold text-gray-700">Boragadhoi Village, Muluk Gaon, Dibrugarh</p>
+                            <p class="text-[11px] text-gray-500">Easy accessibility from Dibrugarh town via main arterial roads.</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact Form -->
+                    <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
+                        <h3 class="text-xl font-bold text-brand-navy mb-6">Send an Inquiry</h3>
+                        
+                        <!-- Alert Box for submission feedback -->
+                        <div id="form-alert" class="hidden p-3 rounded-lg bg-emerald-100 text-emerald-800 text-xs font-bold mb-4">
+                            Thank you! Your inquiry has been submitted successfully. We will get back to you soon.
+                        </div>
+
+                        <form id="enquiry-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Full Name</label>
+                                <input type="text" required placeholder="e.g., Manash Jyoti Gogoi" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-brand-navy transition">
+                            </div>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone Number</label>
+                                    <input type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-brand-navy transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Email Address</label>
+                                    <input type="email" placeholder="name@domain.com" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-brand-navy transition">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Subject</label>
+                                <select class="w-full px-4 py-2.5 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-brand-navy transition">
+                                    <option>General Admission Inquiry</option>
+                                    <option>Academic & TLM Query</option>
+                                    <option>Eco-Club & Green Projects</option>
+                                    <option>Sports & Khel Maharan</option>
+                                    <option>Other Administrative Query</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Message</label>
+                                <textarea rows="4" required placeholder="Type your message here..." class="w-full px-4 py-2.5 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-brand-navy transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-brand-navy hover:bg-blue-900 text-white font-bold py-3 rounded-lg shadow-md transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-brand-navy text-white border-t-4 border-brand-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Col 1: School Identity -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-gold text-brand-navy flex items-center justify-center font-bold text-lg">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="font-extrabold text-lg text-white">PM SHRI BINDHAKATA HS</h3>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        A flagship educational institution under the PM SHRI scheme committed to modern learning, digital empowerment, and sustainable eco-practices in Boragadhoi, Assam.
+                    </p>
+                    <div class="flex space-x-3 text-gray-300 pt-2">
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition"><i class="fa-brands fa-youtube text-xs"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition"><i class="fa-brands fa-x-twitter text-xs"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-sm font-bold text-brand-gold uppercase tracking-wider mb-4 border-b border-blue-800 pb-2">Quick Navigation</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li><a href="#home" class="hover:text-brand-gold transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold"></i> Home Page</a></li>
+                        <li><a href="#about" class="hover:text-brand-gold transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold"></i> About PM SHRI Scheme</a></li>
+                        <li><a href="#academics" class="hover:text-brand-gold transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold"></i> Academics & Curriculum</a></li>
+                        <li><a href="#facilities" class="hover:text-brand-gold transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold"></i> Facilities & TLM Corner</a></li>
+                        <li><a href="#gallery" class="hover:text-brand-gold transition flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-brand-gold"></i> Khel Maharan & Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Green Initiatives -->
+                <div>
+                    <h4 class="text-sm font-bold text-brand-gold uppercase tracking-wider mb-4 border-b border-blue-800 pb-2">Green Initiatives</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-seedling text-emerald-400"></i> Vermicompost Harvesting Unit</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-cloud-sun-rain text-emerald-400"></i> Campus Rainwater Harvesting</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-tree text-emerald-400"></i> Eco-Club Sapling Drives</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-broom text-emerald-400"></i> Swachh Vidyalaya Campaign</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Location Address -->
+                <div>
+                    <h4 class="text-sm font-bold text-brand-gold uppercase tracking-wider mb-4 border-b border-blue-800 pb-2">Address & Hours</h4>
+                    <p class="text-xs text-gray-300 leading-relaxed mb-3">
+                        <strong>PM SHRI BINDHAKATA HS</strong><br>
+                        Boragadhoi Village, Muluk Gaon<br>
+                        Dibrugarh District, Assam, PIN: 786001
+                    </p>
+                    <p class="text-xs text-brand-gold font-semibold">
+                        <i class="fa-solid fa-clock mr-1"></i> Mon - Sat: 9:00 AM - 3:30 PM
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="mt-12 pt-6 border-t border-blue-900/60 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-400">
+                <p>&copy; 2026 PM SHRI BINDHAKATA HS, Boragadhoi, Dibrugarh. All Rights Reserved.</p>
+                <p class="mt-2 sm:mt-0 text-gray-500">Designed for Educational Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PRINCIPAL MODAL -->
+    <div id="principal-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full p-6 sm:p-8 relative shadow-2xl border-2 border-brand-gold max-h-[90vh] overflow-y-auto">
+            <button onclick="closePrincipalModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-xl font-bold">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-navy flex-shrink-0">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Principal" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-brand-navy">Principal's Address</h3>
+                    <p class="text-xs text-brand-green font-semibold">PM SHRI BINDHAKATA HS, Dibrugarh</p>
+                </div>
+            </div>
+            <div class="text-xs sm:text-sm text-gray-600 space-y-3 leading-relaxed border-t border-gray-100 pt-4">
+                <p>Dear Students, Parents, and Well-wishers,</p>
+                <p>It is my privilege to welcome you to <strong>PM SHRI Bindhakata High School</strong>. Being situated in the historic and vibrant land of Boragadhoi, Dibrugarh, our school has consistently strived to uplift rural talent and foster academic and moral strength.</p>
+                <p>As a designated <em>PM SHRI School</em>, we are dedicated to setting benchmark standards in teaching, learning materials (TLM), digital education, and holistic development. Beyond traditional academics, our students participate enthusiastically in sports competitions such as Khel Maharan and internal chess leagues.</p>
+                <p>Furthermore, our commitment to green initiatives—such as operating an active vermicompost unit and harvesting rainwater— instills environmental stewardship in our young learners.</p>
+                <p>We look forward to working hand-in-hand with parents and community leaders to shape a bright, innovative future for all our students.</p>
+                <p class="font-bold text-brand-navy pt-2">Warm Regards,<br>Headmaster / Principal<br>PM SHRI BINDHAKATA HS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR INTERACTIVE LOGIC -->
+    <script>
+        // --- 1. Mobile Menu Toggle ---
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // --- 2. Hero Banner Carousel ---
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const indicators = document.querySelectorAll('.slide-indicator');
+        const totalSlides = slides.length;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                if (i === index) {
+                    slide.classList.remove('opacity-0');
+                    slide.classList.add('opacity-100');
+                } else {
+                    slide.classList.remove('opacity-100');
+                    slide.classList.add('opacity-0');
+                }
+            });
+
+            indicators.forEach((ind, i) => {
+                if (i === index) {
+                    ind.classList.remove('opacity-40');
+                    ind.classList.add('opacity-100');
+                } else {
+                    ind.classList.remove('opacity-100');
+                    ind.classList.add('opacity-40');
+                }
+            });
+
+            currentSlide = index;
+        }
+
+        function nextSlide() {
+            let next = (currentSlide + 1) % totalSlides;
+            showSlide(next);
+        }
+
+        function prevSlide() {
+            let prev = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(prev);
+        }
+
+        function goToSlide(index) {
+            showSlide(index);
+            resetInterval();
+        }
+
+        document.getElementById('next-slide').addEventListener('click', () => {
+            nextSlide();
+            resetInterval();
+        });
+
+        document.getElementById('prev-slide').addEventListener('click', () => {
+            prevSlide();
+            resetInterval();
+        });
+
+        function startInterval() {
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        function resetInterval() {
+            clearInterval(slideInterval);
+            startInterval();
+        }
+
+        startInterval();
+
+        // --- 3. Notice Tabs Logic ---
+        function switchNoticeTab(tabKey) {
+            // Hide all tab content
+            const contents = document.querySelectorAll('.notice-content');
+            contents.forEach(content => content.classList.add('hidden'));
+
+            // Deactivate all buttons
+            const tabBtns = document.querySelectorAll('.notice-tab-btn');
+            tabBtns.forEach(btn => {
+                btn.classList.remove('bg-brand-navy', 'text-white', 'shadow');
+                btn.classList.add('text-gray-700', 'hover:bg-gray-200');
+            });
+
+            // Show target content
+            const targetContent = document.getElementById('tab-' + tabKey);
+            if (targetContent) {
+                targetContent.classList.remove('hidden');
+            }
+
+            // Highlight active button
+            event.currentTarget.classList.remove('text-gray-700', 'hover:bg-gray-200');
+            event.currentTarget.classList.add('bg-brand-navy', 'text-white', 'shadow');
+        }
+
+        // --- 4. Gallery Filter Logic ---
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.classList.remove('bg-brand-navy', 'text-white');
+                btn.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-200');
+            });
+
+            event.currentTarget.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-200');
+            event.currentTarget.classList.add('bg-brand-navy', 'text-white');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        }
+
+        // --- 5. Principal Modal ---
+        function openPrincipalModal() {
+            document.getElementById('principal-modal').classList.remove('hidden');
+        }
+
+        function closePrincipalModal() {
+            document.getElementById('principal-modal').classList.add('hidden');
+        }
+
+        // Close modal on outer click
+        window.onclick = function(event) {
+            const modal = document.getElementById('principal-modal');
+            if (event.target === modal) {
+                closePrincipalModal();
+            }
+        }
+
+        // --- 6. Form Submission Simulation ---
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const alertBox = document.getElementById('form-alert');
+            alertBox.classList.remove('hidden');
+            document.getElementById('enquiry-form').reset();
+            setTimeout(() => {
+                alertBox.classList.add('hidden');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
